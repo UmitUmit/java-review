@@ -2,9 +2,11 @@ import lombok.*;
 
 import java.util.Objects;
 
-//@NoArgsConstructor
+
+
 @AllArgsConstructor
 @Data
+//@Data will give all below command out annotations, it include them. it's a shortcut.
 //@Getter
 //@Setter
 //@ToString
@@ -18,7 +20,7 @@ public class Student {
     private String email;
     private String password;
     private String confirmPassword;
-    private int age;
+    //private final int age;
 
 
 
