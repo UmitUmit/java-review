@@ -16,6 +16,7 @@ public class ArraySorting {
         Sorting bubbleSort = () -> System.out.println("Bubble Sorting");
         as.sort(bubbleSort);
 
+       // as.sort(() -> System.out.println("quick sorting"));
 
     }
 
