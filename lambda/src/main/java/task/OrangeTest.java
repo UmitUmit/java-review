@@ -2,6 +2,7 @@ package task;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 public class OrangeTest {
 
@@ -37,6 +38,12 @@ public class OrangeTest {
         prettyPrintOrange(inventory, fancyFormatter);
 
     }
+
+//    private static void prettyPrintOrange(List<Orange> inventory, Function<Orange, String> f){
+//        for (Orange orange : inventory){
+//            f.apply();
+//        }
+//    }
 
     private static void prettyPrintOrange(List<Orange> inventory, OrangeFormatter orangeFormatter){
         for (Orange orange : inventory){
